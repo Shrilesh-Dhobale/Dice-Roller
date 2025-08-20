@@ -4,14 +4,27 @@ body{
     background-color: black
 }
 .container {
+    margin-top: 50px;
     text-align: center;
     color: white;
 }
 .card{
-    margin-top: 150px;
+    margin-top: 120px;
     background-color: #333;
     border-radius: 8px;
     padding: 20px;
     display: inline-block;
     box-shadow: 2px 2px 4px rgba(84, 80, 80, 0.5);
+}
+#roll-button {
+    display: block;
+    margin: 20px auto;
+    align-items: center;
+    background-color:rgb(56, 56, 164);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }

@@ -1,4 +1,4 @@
-const diceImg=document.getElementsByClassName("dice-image");
+const diceImg=document.getElementsByClassName("dice-image")[0];
 function rollDice() {
     const min = 1;
     const max = 6;

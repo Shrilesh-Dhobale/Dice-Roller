@@ -1,7 +1,17 @@
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    margin: 0;
+    padding: 0;
     background-color: black
+}
+.container {
+    text-align: center;
+    color: white;
+}
+.card{
+    margin-top: 150px;
+    background-color: #333;
+    border-radius: 8px;
+    padding: 20px;
+    display: inline-block;
+    box-shadow: 2px 2px 4px rgba(84, 80, 80, 0.5);
 }

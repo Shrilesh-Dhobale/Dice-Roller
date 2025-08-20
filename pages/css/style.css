@@ -1,20 +1,34 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: black
+}
+.half-white {
+    height: 40vh;
+    background: white;
+    width: 100vw;
+}
+
+.half-blue {
+    height: 60vh;
+    background: rgb(56, 56, 164);
+    width: 100vw;
 }
 .container {
-    margin-top: 50px;
+    margin-top: 20px;
     text-align: center;
-    color: white;
+    
+}
+#title {
+    color:rgb(56, 56, 164);
+    font-size: 30px;
 }
 .card{
-    margin-top: 120px;
-    background-color: #333;
+    margin-top: 100px;
+    background-color: white;
     border-radius: 8px;
-    padding: 20px;
+    padding: 50px;
     display: inline-block;
-    box-shadow: 2px 2px 4px rgba(84, 80, 80, 0.5);
+    box-shadow: 2px 2px 4px rgba(149, 147, 217, 0.5);
 }
 #roll-button {
     display: block;
